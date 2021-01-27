@@ -31,10 +31,7 @@ class Bubble {
   }
 
   handlePosition() {
-
-    const randomY = this.randomNumber(30, -30);
-    const randomX = this.randomNumber(30, -30);
-
+    
     this.bubbleSpan.style.backgroundColor = this.color;
     this.bubbleSpan.style.height = this.height + "px";
     this.bubbleSpan.style.width = this.height + "px";

@@ -1,0 +1,24 @@
+.element {
+    position: absolute;
+    background: lightblue;
+    left: 45%;
+    top: 50%;
+    width: 200px;
+    height: 100px;
+    transform: translateX(0);
+}
+
+.bubble {
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: linear 2s, transform 0.2s;
+}
+
+.bubble:hover {
+    transform: scale(1.7);
+}
+
+.bubble--bust {
+    transform: scale(1.8);
+}

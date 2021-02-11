@@ -1,0 +1,30 @@
+.element {
+    position: absolute;
+    background: lightblue;
+    left: 45%;
+    top: 50%;
+    width: 200px;
+    height: 100px;
+    transform: translateX(0);
+}
+
+.border-style {
+    border: 4px solid green;
+    outline-color: #a1a101eb;
+    outline-style: dashed;
+    outline-width: 6px;
+    outline-offset: 3px;
+}
+
+.rectangle {
+
+    background: #fb20ff;
+    height: 12px;
+    width: 31px;
+    display: block;
+    transform: translate(-31px, -12px);
+}
+
+.rectangle--gone {
+    display: none;
+}
